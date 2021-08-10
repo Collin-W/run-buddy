@@ -42,9 +42,9 @@
       <label for="name">Enter full name:</label>
       <input type="text" placeholder="Your Name" name="name" id="name" />
       <label for="email">Enter email address:</label>
-      <input type="text" placeholder="Email Address" name="email" id="email" />
+      <input type="email" placeholder="Email Address" name="email" id="email" />
       <label for="phone">Enter phone number:</label>
-      <input type="text" placeholder="Phone Number" name="phone" id="phone" />
+      <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
       <p>
           Have you worked out with a trainer before?
           <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -52,12 +52,20 @@
           <input type="radio" name="trainer-confirm" id="trainer-no" />
           <label for="trainer-no">No</label>
       </p>
+      <p>
+        <label for="acknowledge-yes">
+          I acknowledge that I am at least 18 years of age.
+        </label>
+        <input type="checkbox" name="acknowledge-confirm" id="acknowledge-yes" />
+        <!-- Should I make the check box more easy to click and how? Edit: you must add p text in the label -->
+      </p>
+      <button type="submit">
+          Get running!
+      </button>
     </form>
 </div>
 </section>
-<!--hero/jumbotron-->
-<section>
-</section>
+<!--hero/jumbotron end-->
 
 <!--"what we do"-->
 <section>
