@@ -7,7 +7,8 @@ A website that offers fitness training services.
 * HTML
 * CSS
 
-##Website
+## Website
+https://collin-w.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Collin W.
